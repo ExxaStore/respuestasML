@@ -1,4 +1,4 @@
-﻿var htmlContent = '';
+var htmlContent = '';
 
 htmlContent += '<style>';
 htmlContent += '.overlay {';
@@ -56,6 +56,7 @@ htmlContent += '<div id="myNav" class="overlay">';
 htmlContent += '  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>';
 htmlContent += '  <div class="overlay-content">';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Sí tenemos el producto en stock para entrega inmediata. Saludos, EXXA STORE.\');">Con Stock</a>';
+htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Seguro nos mandamos una cagada. Saludos, EXXA STORE.\');">Cagada</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Lamentablemente nos quedamos sin stock de este producto, podemos ofrecerte otro similar? Saludos, EXXA STORE.\');">Sin stock</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Sí lo soporta. Saludos, EXXA STORE.\');">Si lo soporta</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. No, no lo soporta. Saludos, EXXA STORE.\');">No lo soporta</a>';
@@ -105,7 +106,6 @@ htmlContent += '</script>';
 /*
 $("p[data-js='question-row-text']").html().trim() <-- obtiene el texto de la pregunta (cuando hay una sola)
 $("textarea[data-js='question-replay__textarea']").val() <-- obtiene el texto del text area de la respuesta (cuando hay una sola)
-
 $("textarea[data-js='question-replay__textarea']").val("setea el valor") <-- setea el texto del text area de la respuesta (cuando hay una sola)
 $("textarea[data-js='question-replay__textarea']:eq(0)").val("que miras gil??") <-- setea el texto del text area de la respuesta (opción 0 de las N posibles)
 */
