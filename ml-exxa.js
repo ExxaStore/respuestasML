@@ -63,7 +63,7 @@ htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. 
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Nuestro horario de atención es de Lunes a Viernes de 10 a 18. Saludos, EXXA STORE.\');">Horarios</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Estamos en Caballito, a metros de la estación Primera Junta del Subte A y la estación Caballito del tren Sarmiento. Saludos, EXXA STORE.\');">Ubicacion</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Mercadolibre no nos permite pasar datos de contacto. Saludos, EXXA STORE.\');">No pasar datos</a>';
-htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu compra. Saludos, EXXA STORE.\');">Esqueleto</a>';
+htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu consulta. Saludos, EXXA STORE.\');">Esqueleto</a>';
 htmlContent += '    <a href="#"><hr></a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu compra. Queríamos consultarte si vas a pasar a retirar tu producto por nuestras oficinas? Estamos de Lunes a Viernes de 11 a 18 en Av. Juan Bautista Alberdi 965 oficina 6, esquina Cachimayo, Caballito. Si va a retirarlo otra persona, por favor indicanos su nombre y documento. O te gustaría que te lo enviemos por moto o por OCA? Por último, querés pasarnos tu dirección de email así podemos tenerte al tanto de nuestras ofertas. Saludos, EXXA STORE.\');">Retira</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu compra. Queríamos consultarte si vas a pasar a retirar tu producto por nuestras oficinas? Estamos de Lunes a Viernes de 11 a 18 en Av. Juan Bautista Alberdi 965 oficina 6, esquina Cachimayo, Caballito. Si va a retirarlo otra persona, por favor indicanos su nombre y documento. O te gustaría que te lo enviemos? Por último, querés pasarnos tu dirección de email así podemos tenerte al tanto de nuestras ofertas. Saludos, EXXA STORE. PD: esta es la foto de nuestro timbre, ya que es algo confuso: http://www.exxa.com.ar/ml/fotosml/timbre.jpg\');">Retira con foto</a>';
@@ -74,7 +74,7 @@ htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por
 htmlContent += '    <a href="javascript:updateAnswer(\'Hola, te adjuntamos en este email la factura de compra en formato digital la que incluye también la garantía del producto. Cualquier otra cosa que necesites, por favor dejánoslo saber. Saludos, EXXA STORE.\');">Envio Factura</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'No podemos facturar tu compra porque no nos figura tu documento, podrías por favor decirnos tu número de DNI? Saludos, EXXA STORE.\');">DNI Mal</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Intentamos llamarte a tu teléfono de contacto pero no pudimos comunicarnos. Podrías por favor contactanos al teléfono fijo (11)4432-1272 o al celular (11)5717-0000. Saludos, EXXA STORE.\');">Telefono mal</a>';
-
+htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu compra. Saludos, EXXA STORE.\');">Esqueleto</a>';
 
 htmlContent += '  </div>';
 htmlContent += '</div>';
