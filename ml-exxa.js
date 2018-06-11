@@ -63,6 +63,7 @@ htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. 
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Nuestro horario de atención es de Lunes a Viernes de 10 a 18. Saludos, EXXA STORE.\');">Horarios</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Estamos en Caballito, a metros de la estación Primera Junta del Subte A y la estación Caballito del tren Sarmiento. Saludos, EXXA STORE.\');">Ubicacion</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Gracias por tu consulta. Mercadolibre no nos permite pasar datos de contacto. Saludos, EXXA STORE.\');">No pasar datos</a>';
+htmlContent += '    <a href="javascript:updateAnswer(\'Andate a la concha de tu madre!\');">Insulto</a>';
 htmlContent += '    <a href="javascript:updateAnswer(\'Hola y muchas gracias por tu consulta. Saludos, EXXA STORE.\');">Esqueleto</a>';
 htmlContent += '    <a href="#"><hr></a>';
 
